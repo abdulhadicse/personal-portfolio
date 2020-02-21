@@ -121,11 +121,12 @@ body{
 
 .work_demo img{
     width: 100%;
-    
 }
 
-.work_demo:hover{
+.work_demo img:hover{
     box-shadow: 10px 10px 5px #f890b1;
+    transform: translate(-30);
+    transition: 1;
 }
 
 /* Latest Work CSS End */
