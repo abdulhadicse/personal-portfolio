@@ -40,6 +40,11 @@ body{
     width: 100%;
 }
 
+.right_section img:hover{
+    width: 110%;
+    transition: 1s;
+}
+
 .link_button{
     
     text-decoration: none;
@@ -48,7 +53,7 @@ body{
     font-size: 16px;
     color: white;
     border-radius: 5px;
-    background-image: linear-gradient(45deg, #EC5093, #EC4B74);
+    background-image: linear-gradient(45deg, #EC5093, #EC4B74);   
     
 }
 
@@ -67,6 +72,11 @@ body{
  .bio_left_section img{
     width: 100%;
     
+}
+
+.bio_left_section img:hover{
+    width: 105%;
+    transition: 1s;
 }
 
 .bio_left_section, .bio_right_section{
@@ -112,6 +122,10 @@ body{
 .work_demo img{
     width: 100%;
     
+}
+
+.work_demo:hover{
+    box-shadow: 10px 10px 5px #f890b1;
 }
 
 /* Latest Work CSS End */
