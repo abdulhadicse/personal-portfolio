@@ -95,6 +95,55 @@ body{
 }
 /* Biography Section CSS End */
 
+/* Experience Section CSS Start */
+
+.name_highlights{
+    color:#15DCD2;
+}
+
+.experience_section_left, .experience_section_right{
+    width: 40%;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    float: left;
+}
+
+.experience_section_left, .experience_section_right{
+    box-shadow: 10px 10px 15px gray;
+    background-color: white;
+}
+
+.experience_section{
+    background-image: url("assets/img/footer-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 700px;
+    overflow: hidden;
+}
+
+#full_stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightSalmon,tomato);
+    border-image-slice: 1;
+}
+
+#junior_stack{
+    border-left: 7px dashed;
+    border-image: linear-gradient(180deg, #0CEDC8, #3A97F7);
+    border-image-slice: 1;
+}
+
+.experience_section #ex_sec{
+    text-align: center;
+    font-size: 40px;
+    padding: 40px 0px;
+}
+
+
+/* Experience Section CSS End */
+
 
 /* Latest Work Section CSS Start */
 
